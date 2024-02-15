@@ -466,14 +466,14 @@ Authorization: Bearer $survey_import
                 "organisation_phone": "",
                 "organisation_number": "",
                 "days_to_complete": "",
-                "sensitive": "1/0"
-                "code": "3/5"
-                "code_text": "Helsehjelp/Sekundærbruk"
-                "intent": "proposal/plan"
-                "delivery_form": <form_id>
+                "sensitive": "1/0",
+                "code": "3/5",
+                "code_text": "Helsehjelp/Sekundærbruk",
+                "intent": "proposal/plan",
+                "delivery_form": <form_id>,
                 "connected_forms": [<form_id>]
             }
-        },
+        }
     ]
 }
 ```
@@ -488,7 +488,7 @@ Authorization: Bearer $survey_import
     "id": <uuid>,
     "fnr": "",
     "status": "init"
-    "status_message": ""
+    "status_message": "",
     "created_date": "",
     "end_date": "",
     "created_by": <user>,
@@ -497,7 +497,6 @@ Authorization: Bearer $survey_import
 ```
 
 Status codes of a delivery are: "init", "completed", "error", "sent", "deleted"
-
 
 To get an overview of the status of created tasks
 ```txt
