@@ -498,6 +498,7 @@ Authorization: Bearer $survey_import
 
 Status codes of a delivery are: "init", "completed", "error", "sent", "deleted"
 
+
 To get an overview of the status of created tasks
 ```txt
 GET /v1/p11/survey/1234/tasks/deliveries
